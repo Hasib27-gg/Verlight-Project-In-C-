@@ -82,7 +82,7 @@ private:
 		{"reAssign_char" , DeclaratorEngine::reAssign_char},
 		{"reAssign_bool" , DeclaratorEngine::reAssign_bool},
 
-		{"delete_i8" , DeclaratorEngine::delete_var},
+		{"delete_var" , DeclaratorEngine::delete_var},
 
 		{"print" , IOEngine::print},
 		{"println" , IOEngine::println},
@@ -581,3 +581,4 @@ public:
 };
 
 #endif
+
