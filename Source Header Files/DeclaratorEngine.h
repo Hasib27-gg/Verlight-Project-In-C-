@@ -45,7 +45,7 @@ private:
     /*
      ___isNum___(const std::string& s)
      Parameters:
-       - s : const std::string& — string to validate as a numeric literal (supports optional leading +/-, and one optional decimal point)
+       - s : const std::string& â€” string to validate as a numeric literal (supports optional leading +/-, and one optional decimal point)
      Description:
        - Returns true if the string represents a valid numeric token in the VM's literal format.
        - Accepts integer and floating representations like: "123", "-42", "+3.14", "0.5", "10.0"
@@ -960,7 +960,7 @@ public:
         current_memory.m_reInsertVariable(name, valtValue);
     }
 
-    /* ==================== delete_* functions ====================
+    /* ==================== delete_var function ====================
       delete_var() validates a single parameter (variable name), validates return_address,
        checks the variable exists in current_memory, then removes it via m_removeVariable.
     */
@@ -991,3 +991,4 @@ public:
 };
 
 #endif
+
