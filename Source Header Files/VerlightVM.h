@@ -515,6 +515,7 @@ public:
 					}
 					// recursively execute other section
 					execute(sectionName);
+					continue;
 				}
 			}
 			else if (currentIns.___TODO___ == "goto") {
@@ -581,4 +582,5 @@ public:
 };
 
 #endif
+
 
