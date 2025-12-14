@@ -1,2 +1,57 @@
-# Verlight-Project-In-C-
-Hello ! This is just a project , tried to make a new programming language .  As a 7th grader , I know the code is not the best  . Please read README to get more information.
+Verlight Project (C++) Overview
+
+This repository contains an experimental C++ project developed with the objective of exploring the design and implementation of a simple programming language. The project was created primarily as a learning exercise and should be regarded as such. The author is currently a seventh-grade student, and the codebase reflects an early stage of programming experience.
+
+This project is not intended for professional use, nor should it be evaluated against production-level software standards.
+
+1.Limitations of the Codebase:
+
+The quality and structure of the code are influenced by several factors:
+
+The author is at an early stage of learning computer programming and has been studying programming for approximately six months.
+
+Simultaneously attempting to understand multiple areas of computer science has introduced additional complexity.
+
+Academic obligations and time constraints have further limited opportunities for refinement and optimization.
+
+As a result, the code may lack optimal design patterns, efficiency, and best practices. This repository should therefore be viewed strictly as a personal learning project rather than a polished or production-ready system.
+
+2.Purpose of Publication:
+
+The project has been uploaded to GitHub for the following reasons:
+
+To gain practical experience with version control systems and the GitHub platform.
+
+To practice organizing and publishing a C++ project.
+
+To share a personal learning project with peers who are also in the early stages of programming and may be working with similarly unrefined codebases.
+
+The publication of this repository does not imply that the project meets professional or industry standards.
+
+3.Expectations and Scope of Feedback:
+
+Readers and reviewers are kindly requested to consider the following:
+
+Please refrain from criticizing the codebase purely on performance, architectural decisions, or stylistic choices.
+
+Certain modern C++ features and practices were intentionally not used (e.g., templates, std::visit, or strict separation of source and header files), either due to learning constraints or to simplify development within the chosen environment (Visual Studio Code).
+
+The author acknowledges existing limitations in skill level and does not claim parity with mature or well-established codebases.
+
+Constructive feedback, suggestions, and improvements are welcome, provided they are respectful and, where possible, accompanied by explanations or example solutions.
+
+Notes:
+
+The code was not created through direct copy-and-paste from large language models (e.g., ChatGPT, Claude, Gemini, Copilot, DeepSeek, Grok, LLaMA) or online forums such as Stack Overflow.
+
+AI tools were used strictly as learning aids to understand concepts, not as sources for direct code reproduction.
+
+Class organization was managed using header files in a manner that simplified control over compilation and virtual machine behavior for this project.
+
+Thoughtful opinions, suggestions, and constructive criticism are appreciated. Toxic or disrespectful commentary will not be considered.
+
+The codebase is not fully commented. While some components (such as MemoryModel.h and the virtual machine implementation) contain explanatory comments, time constraints prevented comprehensive documentation across all files.
+
+Thank you for taking the time to review this project and for approaching it with understanding and professionalism.
+
+[UPDATE]: (14/12/25) The whole codebase has been commented. Commnents will help reader to guide through the code and logic implementation.
