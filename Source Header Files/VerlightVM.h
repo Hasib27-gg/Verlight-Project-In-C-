@@ -97,6 +97,7 @@ private:
 		{"divide" , ArithmeticEngine::divide},
 		{"floor" , ArithmeticEngine::floor},
 		{"ceiling" , ArithmeticEngine::ceiling},
+        {"mod" , ArithmeticEngine::mod},
 		{"abs" , ArithmeticEngine::abs},
 		{"pow" , ArithmeticEngine::pow},
 
@@ -582,5 +583,6 @@ public:
 };
 
 #endif
+
 
 
