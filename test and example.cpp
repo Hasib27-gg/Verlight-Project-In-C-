@@ -4,17 +4,32 @@
 int main()
 {
 	/*
-	    The code down is a sample code for Celcius to Ferenhite Calculation.
+	    The code down is a sample code for prime checking.
 		Check the API Reference for syntax.
 	*/
 	std::string code = R"(
        #main{
-             @new_str : (buff , "") ;
-             @input   : ("Enter the temperature here(C): ") ~ buff;
-             @new_f32 : (resBuff , $buff);
-             @multiply : (1.8 , $resBuff) ~ resBuff;
-             @add      : ($resBuff , 32) ~ resBuff;
-             @print    : ("The temp in f is: " , $resBuff);
+          @new_i32 : (n , 7);
+          @execute : (isPrime);
+          @print   : ("Is N a prime number?: " , $bool);
+       }
+       #isPrime{
+          @import : (main , n);
+          @new_i32 : (count , 0);
+          @new_i32 : (it , 0);
+          @new_i32 : (mod_res, 0);
+          @new_bool : (bool , false);
+          @loop     : (1 , $n , 1) ~ it;
+          @start    : (it);
+              @mod  : ($n , $it) ~ mod_res;
+              @isEqual : ($mod_res , 0) ~ bool;
+              <$bool> @add : ($count , 1) ~ count; 
+          @end      : (it);
+          @isEqual : ($count , 2) ~ bool;
+          @export  : (main ,bool);
+          @delete_var : (count);
+          @delete_var : (it);
+          @delete_var : (mod_res);
        }
     )";
      /*
@@ -29,4 +44,5 @@ int main()
 	wrapper.execute();
 	return 0;
 }
+
 
