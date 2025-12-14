@@ -29,18 +29,8 @@ Overview & Order of member functions (DICC_Compiler)
   Rationale:
     - Small helper/isValid first.
     - Extraction of raw programs -> split into lines -> parse lines to instructions -> finalize/compile.
-    - No behavioral changes — comments only.
+    - No behavioral changes â€” comments only.
 */
-
-/* Instruction representation used by compiler -> VM boundary */
-struct ___INSTRUCTION___T___
-{
-    ___STRING___ ___VM___WILL___EXECUTE___ = "true";     // boolean guard string (e.g. "true" or "$someVar")
-    ___STRING___ ___TODO___ = "nan";                     // the action token (e.g. "@new_i32")
-    ___STRING___VECTOR___ ___PARAMETERS___ = { "nan" };  // parameter tokens
-    ___STRING___ ___RETURN___ADDRESS___ = "nullptr";    // return address or identifier used by instructions
-};
-
 
 #ifndef ___HAS___DECLARED___TYPES___
 #define ___HAS___DECLARED___TYPED___ 1
@@ -52,6 +42,16 @@ typedef robin_hood::unordered_set<char> ___CHAR___SET___;
 typedef std::string ___STRING___;
 typedef robin_hood::unordered_map<std::string, std::string> ___UMAP___STRING___STRING___T___;
 typedef robin_hood::unordered_map<std::string, std::vector<std::string>> ___UMAP___STRING___VECTOR___STRING___T___;
+
+/* Instruction representation used by compiler -> VM boundary */
+struct ___INSTRUCTION___T___
+{
+    ___STRING___ ___VM___WILL___EXECUTE___ = "true";     // boolean guard string (e.g. "true" or "$someVar")
+    ___STRING___ ___TODO___ = "nan";                     // the action token (e.g. "@new_i32")
+    ___STRING___VECTOR___ ___PARAMETERS___ = { "nan" };  // parameter tokens
+    ___STRING___ ___RETURN___ADDRESS___ = "nullptr";    // return address or identifier used by instructions
+};
+
 typedef  robin_hood::unordered_map<std::string, std::vector<___INSTRUCTION___T___>> ___UMAP___STRING___VECTOR___INSTRUCTIONS___T___;
 typedef std::vector<___INSTRUCTION___T___> ___INSTRUCTIONS___VECTOR___T___;
 
@@ -464,7 +464,7 @@ public:
             ___PHASE___READING___QUOTE___ = false;
 
 
-        // bracket handling: '[' opens a bracket region, ']' closes it — commas inside brackets are not separators
+        // bracket handling: '[' opens a bracket region, ']' closes it â€” commas inside brackets are not separators
         if (item == '[' && !___PHASE___READING___BRACKETS___ && !___PHASE___READING___QUOTE___)
         {
             ___PHASE___READING___BRACKETS___ = true;
@@ -595,3 +595,4 @@ public:
 #define compilerCollection DICC_Compiler
 
 #endif
+
