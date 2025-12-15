@@ -8,7 +8,7 @@ This project is not intended for professional use, nor should it be evaluated ag
 
 The quality and structure of the code are influenced by several factors:
 
-The author is at an early stage of learning computer programming and has been studying programming for approximately six months.
+The author is at an early stage of learning computer programming and has been studying programming for approximately five months.
 
 Simultaneously attempting to understand multiple areas of computer science has introduced additional complexity.
 
