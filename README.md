@@ -1,59 +1,70 @@
-Verlight Project (C++) Overview
+Here is a rewritten version that sounds like it was written by a 6th grader, using simpler words, shorter sentences, and a more casual tone:
 
-This repository contains an experimental C++ project developed with the objective of exploring the design and implementation of a simple programming language. The project was created primarily as a learning exercise and should be regarded as such. The author is currently a seventh-grade student, and the codebase reflects an early stage of programming experience.
+Verlight Project (C++) – About This Project
 
-This project is not intended for professional use, nor should it be evaluated against production-level software standards.
+This is a small C++ project I made to learn how programming languages work. It is an experiment and mostly for learning. I am a student in middle school, and I am still new to programming, so the code is not perfect.
 
-1.Limitations of the Codebase:
+This project is not made for real-world or professional use. It is just for practice and learning.
 
-The quality and structure of the code are influenced by several factors:
+1. About the Code
 
-The author is at an early stage of learning computer programming and has been studying programming for approximately five months.
+The code has some problems, and that is expected, because:
 
-Simultaneously attempting to understand multiple areas of computer science has introduced additional complexity.
+I have only been learning programming for about five months.
 
-Academic obligations and time constraints have further limited opportunities for refinement and optimization.
+I am trying to learn many computer science topics at the same time.
 
-As a result, the code may lack optimal design patterns, efficiency, and best practices. This repository should therefore be viewed strictly as a personal learning project rather than a polished or production-ready system.
+School work and homework limit how much time I can spend improving the project.
 
-2.Purpose of Publication:
+Because of this, the code might not be very clean, fast, or well designed. This project should be seen as a learning project, not a finished or professional program.
 
-The project has been uploaded to GitHub for the following reasons:
+2. Why I Posted This on GitHub
 
-To gain practical experience with version control systems and the GitHub platform.
+I uploaded this project to GitHub to:
 
-To practice organizing and publishing a C++ project.
+Learn how to use Git and GitHub.
 
-To share a personal learning project with peers who are also in the early stages of programming and may be working with similarly unrefined codebases.
+Practice organizing a C++ project.
 
-The publication of this repository does not imply that the project meets professional or industry standards.
+Share my work with other beginners who are also learning and making mistakes.
 
-3.Expectations and Scope of Feedback:
+Posting this project does not mean it follows professional coding rules.
 
-Readers and reviewers are kindly requested to consider the following:
+3. Feedback and Expectations
 
-Please refrain from criticizing the codebase purely on performance, architectural decisions, or stylistic choices.
+If you look at this project, please keep these things in mind:
 
-Certain modern C++ features and practices were intentionally not used (e.g., templates, std::visit, or strict separation of source and header files), either due to learning constraints or to simplify development within the chosen environment (Visual Studio Code).
+Please don’t judge it too harshly based on performance or code style.
 
-The author acknowledges existing limitations in skill level and does not claim parity with mature or well-established codebases.
+Some advanced C++ features were not used on purpose because I haven’t learned them yet.
 
-Constructive feedback, suggestions, and improvements are welcome, provided they are respectful and, where possible, accompanied by explanations or example solutions.
+I know the code has limits, and I am still learning.
 
-Notes:
+Helpful and kind feedback is welcome. If you give suggestions, please explain them so I can learn from them.
 
-The code was not created through direct copy-and-paste from large language models (e.g., ChatGPT, Claude, Gemini, Copilot, DeepSeek, Grok, LLaMA) or online forums such as Stack Overflow.
+Notes
 
-AI tools were used strictly as learning aids to understand concepts, not as sources for direct code reproduction.
+The code was not copied from AI tools or websites.
 
-Class organization was managed using header files in a manner that simplified control over compilation and virtual machine behavior for this project.
+AI was only used to help understand ideas, not to write the code.
 
-Thoughtful opinions, suggestions, and constructive criticism are appreciated. Toxic or disrespectful commentary will not be considered.
+Header files were used in a way that made things easier for me to manage in this project.
 
-The codebase is not fully commented. While some components (such as MemoryModel.h and the virtual machine implementation) contain explanatory comments, time constraints prevented comprehensive documentation across all files.
+Good advice and respectful comments are appreciated. Mean or rude comments will be ignored.
 
-Thank you for taking the time to review this project and for approaching it with understanding and professionalism.
+About Comments in the Code
 
-[UPDATE]: (14/12/25) The whole codebase has been commented. Commnents will help reader to guide through the code and logic implementation.
-[UPDATE]: (15/12/25) I deleted all the comments of the whole codebase . Everyone is crritisizing it because the comments seems being generated by AI's. 
-                     15 days of work is gone :( .
+Not all files have comments. Some parts are explained, but I didn’t have enough time to comment everything.
+
+Updates:
+
+UPDATE – 14/12/25:
+I added comments to the whole codebase to help readers understand how it works.
+
+UPDATE – 15/12/25:
+I removed all the comments because people said they looked like they were written by AI.
+I worked on this project for 15 days, and it feels really bad to delete all that work 😞.
+
+UPDATE - 16/12/25:
+I rewrote the whole README , because of everyone's criticism. Also note : Nowadays , 5th graders write this type
+of words.
