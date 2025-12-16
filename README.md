@@ -1,5 +1,3 @@
-Here is a rewritten version that sounds like it was written by a 6th grader, using simpler words, shorter sentences, and a more casual tone:
-
 Verlight Project (C++) – About This Project
 
 This is a small C++ project I made to learn how programming languages work. It is an experiment and mostly for learning. I am a student in middle school, and I am still new to programming, so the code is not perfect.
